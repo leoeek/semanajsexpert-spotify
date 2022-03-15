@@ -1,7 +1,7 @@
 const defaultConfig = {
   coverageDirectory: "coverage",
   coverageProvider: "v8",
-  coverageReports: [
+  coverageReporters: [
     "text",
     "lcov",
   ],
@@ -13,7 +13,7 @@ const defaultConfig = {
       statements: 100,
     }
   },
-  maxWorkes: "50%",
+  maxWorkers: "50%",
   watchPathIgnorePatterns: [
     "node_modules"
   ],
